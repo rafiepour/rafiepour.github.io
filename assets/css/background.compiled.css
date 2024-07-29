@@ -12,7 +12,7 @@
   --top: 0;
   --left:0;
   --path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
-  --background: linear-gradient( #b2dfdb, #a5d6a7, #c8e6c9, #ffe0b2);
+  --background: linear-gradient( #b2dfdb, #a5d6a7, #c8e6c9, #fdd835);
   --offset: 0deg;
   --speed: 10000ms;
   clip-path: var(--path);
