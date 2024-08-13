@@ -2,6 +2,13 @@
   box-sizing: border-box;
 }
 
+#gradient {
+  height: 250px;
+  background-image: -webkit-linear-gradient(rgb(99, 173, 241), rgba(0, 255, 255, 0));
+  background-image: -moz-linear-gradient(top, rgb(99, 173, 241) 0px, rgba(0, 255, 255, 0) 250px);
+  background-image: -o-linear-gradient(top, rgb(99, 173, 241) 0px, rgba(0, 255, 255, 0) 250px);
+}
+
 .shape {
   margin: 0 auto;
   aspect-ratio: 1;
@@ -12,9 +19,9 @@
   --top: 0;
   --left:0;
   --path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
-  --background: linear-gradient( #b2dfdb, #a5d6a7, #fdd835);
+  --background: linear-gradient( #b2dfdb, #a5d6a7, #1e88e5 );
   --offset: 0deg;
-  --speed: 10000ms;
+  --speed: 24000ms;
   clip-path: var(--path);
   background: var(--background);
   scale: var(--scale);
