@@ -21,7 +21,7 @@
   --path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
   --background: linear-gradient( #b2dfdb, #a5d6a7, #1e88e5 );
   --offset: 0deg;
-  --speed: 24000ms;
+  --speed: 11000ms;
   clip-path: var(--path);
   background: var(--background);
   scale: var(--scale);
